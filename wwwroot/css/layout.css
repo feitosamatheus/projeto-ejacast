@@ -1,0 +1,41 @@
+header img{
+    width: 100%;
+    height: auto;
+}
+
+.navbar-principal{
+    background-color: #061f3b;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn-navbar{
+    padding: 28px;
+    border-radius: 23px;
+    font-size:26px;
+    width: 250px;
+    border:none;
+    font-weight: 700;
+    color:#061f3b;
+}
+
+.box-btn{
+    margin:10px;
+}
+
+.btn-inicio{
+    background-color: #fbebc3;
+}
+
+.btn-sobre{
+    background-color: #f4bd35;
+}
+
+.btn-episodios{
+    background-color: #94b453;
+}
+
+.btn-dev{
+    background-color: #94bfd3;
+}
