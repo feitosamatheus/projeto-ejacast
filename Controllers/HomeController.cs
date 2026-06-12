@@ -23,6 +23,21 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult SobreNos()
+    {
+        return View();
+    }
+
+    public IActionResult Episodios()
+    {
+        return View();
+    }
+
+    public IActionResult Desenvolvedores()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

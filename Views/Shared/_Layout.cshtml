@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ProjetoEjaCast.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -18,16 +19,28 @@
         </picture>
         <nav class="navbar-principal">
             <div class="box-btn">
-                <button class="btn-navbar btn-inicio">Início</button>
+                <a class="btn-navbar btn-inicio" asp-controller="Home" asp-action="Episodios">
+                    <i class="fa-solid fa-house"></i>
+                    Início
+                </a>
             </div>
             <div class="box-btn">
-                <button class="btn-navbar btn-sobre">Sobre nós</button>
+                <a class="btn-navbar btn-sobre" type="button" asp-action="SobreNos" asp-controller="Home">
+                    <i class="fa-solid fa-users"></i>
+                    Sobre nós
+                </a> 
             </div>
             <div class="box-btn">
-                <button class="btn-navbar btn-episodios">Episódios</button>
+                <a class="btn-navbar btn-episodios" asp-controller="Home" asp-action="Episodios">
+                    <i class="fa-solid fa-circle-play"></i>
+                    Episódios
+                </a>
             </div>
             <div class="box-btn">
-                <button class="btn-navbar btn-dev">Desenvolvedores</button>
+                <a class="btn-navbar btn-dev" asp-controller="Home" asp-action="Desenvolvedores">
+                    <i class="fa-solid fa-code"></i>
+                    Desenvolvedores
+                </a>
             </div>
         </nav>
     </header>
@@ -45,6 +58,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

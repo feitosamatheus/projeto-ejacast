@@ -7,7 +7,9 @@ header img {
 .navbar-principal {
     background-color: #061f3b;
     display: flex;
+    /* display: block; */
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -26,6 +28,14 @@ header img {
     font-weight: 700;
     color: #061f3b;
     transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-navbar:hover {
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    transform: scale(0.99);
 }
 
 .btn-inicio {
@@ -42,6 +52,11 @@ header img {
 
 .btn-dev {
     background-color: #94bfd3;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:6px;
+    justify-content: center;
 }
 
 

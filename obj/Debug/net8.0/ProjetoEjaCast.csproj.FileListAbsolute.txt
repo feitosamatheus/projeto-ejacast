@@ -62,3 +62,4 @@ C:\Users\matheus.feitosa\Documents\Bradesco\Eja\projeto-ejacast\obj\Debug\net8.0
 C:\Users\matheus.feitosa\Documents\Bradesco\Eja\projeto-ejacast\obj\Debug\net8.0\ProjetoEjaCast.pdb
 C:\Users\matheus.feitosa\Documents\Bradesco\Eja\projeto-ejacast\obj\Debug\net8.0\ProjetoEjaCast.genruntimeconfig.cache
 C:\Users\matheus.feitosa\Documents\Bradesco\Eja\projeto-ejacast\obj\Debug\net8.0\ref\ProjetoEjaCast.dll
+C:\Users\j71152484435\Documents\Bradesco\EjaCast\ProjetoEjaCast\obj\Debug\net8.0\ProjetoEjaCast.sourcelink.json
