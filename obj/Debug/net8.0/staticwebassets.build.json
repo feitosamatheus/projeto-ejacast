@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nb9TwB8WiODyQ8XzPBijvyy5ZLYKbV5LZc6wlhx7VKw=",
+  "Hash": "8PxcTxOoz32/QDRK+PsiCqyAQVQbBnR8kZCI4FlRbqM=",
   "Source": "ProjetoEjaCast",
   "BasePath": "_content/ProjetoEjaCast",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wnammkaio0",
-      "Integrity": "fKU3hW0N2Btvi8Vk7aUIXCfw0ZjTwykEs4FwRy45JH8=",
+      "Fingerprint": "1nzlqi7iyi",
+      "Integrity": "U4bi28/LMHSTdgBim9wzKivHZMJzQjUjQJazhFvz/mQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\desenvolvedores.css"
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\episodidos.css"
+    },
+    {
+      "Identity": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\home.css",
+      "SourceId": "ProjetoEjaCast",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\",
+      "BasePath": "_content/ProjetoEjaCast",
+      "RelativePath": "css/home#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sbngyyscen",
+      "Integrity": "GMSnCBzrrNJ6KPAHXVzjHmgg2cLTHC4N8k7HI8xHBSU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
       "Identity": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\layout.css",
@@ -157,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n1cetyk68r",
-      "Integrity": "hQZukyiplvmxOxV3sjZk/BpN2vpctq4NF9tLb58uenM=",
+      "Fingerprint": "5pgdnumkyi",
+      "Integrity": "N1snkw+WwS3R4XNbPQ0QPNPjY5d9YtUdVloFgHvqQV0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\sobreNos.css"
@@ -1531,6 +1552,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/desenvolvedores.1nzlqi7iyi.css",
+      "AssetFile": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\desenvolvedores.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U4bi28/LMHSTdgBim9wzKivHZMJzQjUjQJazhFvz/mQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Jun 2026 19:56:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1nzlqi7iyi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/desenvolvedores.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4bi28/LMHSTdgBim9wzKivHZMJzQjUjQJazhFvz/mQ="
+        }
+      ]
+    },
+    {
       "Route": "css/desenvolvedores.css",
       "AssetFile": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\desenvolvedores.css",
       "Selectors": [],
@@ -1541,7 +1607,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1165"
+          "Value": "1164"
         },
         {
           "Name": "Content-Type",
@@ -1549,11 +1615,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fKU3hW0N2Btvi8Vk7aUIXCfw0ZjTwykEs4FwRy45JH8=\""
+          "Value": "\"U4bi28/LMHSTdgBim9wzKivHZMJzQjUjQJazhFvz/mQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Jun 2026 19:43:14 GMT"
+          "Value": "Tue, 16 Jun 2026 19:56:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1563,52 +1629,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fKU3hW0N2Btvi8Vk7aUIXCfw0ZjTwykEs4FwRy45JH8="
-        }
-      ]
-    },
-    {
-      "Route": "css/desenvolvedores.wnammkaio0.css",
-      "AssetFile": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\desenvolvedores.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1165"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fKU3hW0N2Btvi8Vk7aUIXCfw0ZjTwykEs4FwRy45JH8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jun 2026 19:43:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wnammkaio0"
-        },
-        {
-          "Name": "label",
-          "Value": "css/desenvolvedores.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fKU3hW0N2Btvi8Vk7aUIXCfw0ZjTwykEs4FwRy45JH8="
+          "Value": "sha256-U4bi28/LMHSTdgBim9wzKivHZMJzQjUjQJazhFvz/mQ="
         }
       ]
     },
@@ -1691,6 +1712,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-td2etnGGPLg8WsSspFMHQn7jkYDvg5ApUZjHCy6OIGs="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.css",
+      "AssetFile": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMSnCBzrrNJ6KPAHXVzjHmgg2cLTHC4N8k7HI8xHBSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Jun 2026 20:07:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMSnCBzrrNJ6KPAHXVzjHmgg2cLTHC4N8k7HI8xHBSU="
+        }
+      ]
+    },
+    {
+      "Route": "css/home.sbngyyscen.css",
+      "AssetFile": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMSnCBzrrNJ6KPAHXVzjHmgg2cLTHC4N8k7HI8xHBSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Jun 2026 20:07:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sbngyyscen"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMSnCBzrrNJ6KPAHXVzjHmgg2cLTHC4N8k7HI8xHBSU="
         }
       ]
     },
@@ -1859,6 +1962,51 @@
       ]
     },
     {
+      "Route": "css/sobreNos.5pgdnumkyi.css",
+      "AssetFile": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\sobreNos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N1snkw+WwS3R4XNbPQ0QPNPjY5d9YtUdVloFgHvqQV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jun 2026 19:55:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5pgdnumkyi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/sobreNos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N1snkw+WwS3R4XNbPQ0QPNPjY5d9YtUdVloFgHvqQV0="
+        }
+      ]
+    },
+    {
       "Route": "css/sobreNos.css",
       "AssetFile": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\sobreNos.css",
       "Selectors": [],
@@ -1869,7 +2017,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1389"
+          "Value": "1388"
         },
         {
           "Name": "Content-Type",
@@ -1877,11 +2025,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hQZukyiplvmxOxV3sjZk/BpN2vpctq4NF9tLb58uenM=\""
+          "Value": "\"N1snkw+WwS3R4XNbPQ0QPNPjY5d9YtUdVloFgHvqQV0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Jun 2026 19:42:43 GMT"
+          "Value": "Mon, 15 Jun 2026 19:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1891,52 +2039,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hQZukyiplvmxOxV3sjZk/BpN2vpctq4NF9tLb58uenM="
-        }
-      ]
-    },
-    {
-      "Route": "css/sobreNos.n1cetyk68r.css",
-      "AssetFile": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\sobreNos.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1389"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hQZukyiplvmxOxV3sjZk/BpN2vpctq4NF9tLb58uenM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Jun 2026 19:42:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "n1cetyk68r"
-        },
-        {
-          "Name": "label",
-          "Value": "css/sobreNos.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hQZukyiplvmxOxV3sjZk/BpN2vpctq4NF9tLb58uenM="
+          "Value": "sha256-N1snkw+WwS3R4XNbPQ0QPNPjY5d9YtUdVloFgHvqQV0="
         }
       ]
     },

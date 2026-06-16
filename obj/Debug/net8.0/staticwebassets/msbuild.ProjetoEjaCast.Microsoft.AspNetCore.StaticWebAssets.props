@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wnammkaio0</Fingerprint>
-      <Integrity>fKU3hW0N2Btvi8Vk7aUIXCfw0ZjTwykEs4FwRy45JH8=</Integrity>
+      <Fingerprint>1nzlqi7iyi</Fingerprint>
+      <Integrity>U4bi28/LMHSTdgBim9wzKivHZMJzQjUjQJazhFvz/mQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\desenvolvedores.css'))</OriginalItemSpec>
@@ -35,6 +35,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\episodidos.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjetoEjaCast</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjetoEjaCast</BasePath>
+      <RelativePath>css/home.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sbngyyscen</Fingerprint>
+      <Integrity>GMSnCBzrrNJ6KPAHXVzjHmgg2cLTHC4N8k7HI8xHBSU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\layout.css'))">
       <SourceType>Package</SourceType>
@@ -84,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n1cetyk68r</Fingerprint>
-      <Integrity>hQZukyiplvmxOxV3sjZk/BpN2vpctq4NF9tLb58uenM=</Integrity>
+      <Fingerprint>5pgdnumkyi</Fingerprint>
+      <Integrity>N1snkw+WwS3R4XNbPQ0QPNPjY5d9YtUdVloFgHvqQV0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sobreNos.css'))</OriginalItemSpec>

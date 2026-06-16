@@ -1,8 +1,91 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Início";
 }
+<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="home-container">
+
+    <div class="home-hero">
+        <span class="hero-badge">
+            🎙️ Projeto Integrador 2026
+        </span>
+
+        <h1>🌽 Projeto EJA Cast</h1>
+
+        <p>
+            Um projeto colaborativo que conecta os alunos da Educação de Jovens e Adultos
+            da Fundação Bradesco com a turma de Desenvolvimento de Sistemas, transformando
+            aprendizado, experiências e tecnologia em uma plataforma digital de compartilhamento
+            de conhecimento.
+        </p>
+
+        <p class="hero-subtitulo">
+            Mais que um podcast, uma experiência de integração entre educação, inovação e inclusão digital.
+        </p>
+
+        <div class="home-buttons">
+            <a asp-controller="Home"
+            asp-action="Episodios"
+            class="home-btn home-btn-primary">
+                <i class="fa-solid fa-circle-play"></i>
+                Assistir Episódios
+            </a>
+        </div>
+    </div>
+
+    <div class="home-section">
+        <h2>🤝 Integração entre as turmas</h2>
+
+        <p>
+            O Projeto EJA Cast nasceu da colaboração entre os alunos da Educação de Jovens e Adultos
+            e os alunos da turma de Lógica e Prática de Programação. A proposta foi criar um ambiente de troca,
+            onde cada grupo pudesse contribuir com seus conhecimentos, experiências e habilidades.
+        </p>
+
+        <p>
+            Enquanto a turma da EJA participou com histórias, ideias, vivências e conteúdos para os
+            episódios, a turma de Desenvolvimento ficou responsável pela criação da página web,
+            organização dos vídeos e aplicação das tecnologias necessárias para apresentar o projeto
+            de forma digital, acessível e interativa.
+        </p>
+    </div>
+
+    <div class="home-section tecnologia-section">
+        <h2>💻 Tecnologias utilizadas</h2>
+
+        <div class="tech-grid">
+
+            <div class="tech-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Estruturação das páginas e organização dos conteúdos do site.</p>
+            </div>
+
+            <div class="tech-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Estilização visual, responsividade e identidade temática do projeto.</p>
+            </div>
+
+            <div class="tech-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>ASP.NET Core MVC</h3>
+                <p>Organização do projeto em Controllers, Views e estrutura web.</p>
+            </div>
+
+            <div class="tech-card">
+                <i class="fa-brands fa-youtube"></i>
+                <h3>YouTube</h3>
+                <p>Hospedagem e exibição dos episódios produzidos pela turma.</p>
+            </div>
+
+            <div class="tech-card">
+                <i class="fa-brands fa-github"></i>
+                <h3>GitHub</h3>
+                <p>Controle de versão e compartilhamento do código do projeto.</p>
+            </div>
+
+        </div>
+    </div>
+
+</section>
