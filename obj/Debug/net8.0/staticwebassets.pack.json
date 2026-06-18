@@ -29,8 +29,36 @@
       "PackagePath": "staticwebassets\\css\\sobreNos.css"
     },
     {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\dados\\contador.txt",
+      "PackagePath": "staticwebassets\\dados\\contador.txt"
+    },
+    {
       "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\Abel.jpg",
+      "PackagePath": "staticwebassets\\img\\Abel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\Carlos.jpg",
+      "PackagePath": "staticwebassets\\img\\Carlos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\Gabriel.jpeg",
+      "PackagePath": "staticwebassets\\img\\Gabriel.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\Iasmim.jpg",
+      "PackagePath": "staticwebassets\\img\\Iasmim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\Igor Barbosa.jpeg",
+      "PackagePath": "staticwebassets\\img\\Igor Barbosa.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\aluno-sem-foto.jpg",
+      "PackagePath": "staticwebassets\\img\\aluno-sem-foto.jpg"
     },
     {
       "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\aluno.jpg",
@@ -53,12 +81,40 @@
       "PackagePath": "staticwebassets\\img\\banner4_old.png"
     },
     {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\diana.jpg",
+      "PackagePath": "staticwebassets\\img\\diana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\iranildo.webp",
+      "PackagePath": "staticwebassets\\img\\iranildo.webp"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\milena.jpg",
+      "PackagePath": "staticwebassets\\img\\milena.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\pedro.jpg",
+      "PackagePath": "staticwebassets\\img\\pedro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\santos.jpg",
+      "PackagePath": "staticwebassets\\img\\santos.jpg"
+    },
+    {
       "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\turma-eja.jpeg",
       "PackagePath": "staticwebassets\\img\\turma-eja.jpeg"
     },
     {
       "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\turma-eja.jpg",
       "PackagePath": "staticwebassets\\img\\turma-eja.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\wandson.jpg",
+      "PackagePath": "staticwebassets\\img\\wandson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\wendell.png",
+      "PackagePath": "staticwebassets\\img\\wendell.png"
     },
     {
       "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\js\\site.js",

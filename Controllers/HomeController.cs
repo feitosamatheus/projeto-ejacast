@@ -7,18 +7,66 @@ namespace ProjetoEjaCast.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IWebHostEnvironment _environment;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, IWebHostEnvironment environment)
     {
         _logger = logger;
+        _environment = environment;
     }
 
     public IActionResult Index()
     {
-        return View();
-        // return RedirectToAction("Episodios");
-    }
+        var caminhoArquivo = Path.Combine(
+            _environment.WebRootPath,
+            "dados",
+            "contador.txt"
+        );
 
+        int contador = 0;
+
+        bool jaVisitou = Request.Cookies.ContainsKey("visitou_ejacast");
+
+        if (!jaVisitou)
+        {
+            if (System.IO.File.Exists(caminhoArquivo))
+            {
+                int.TryParse(
+                    System.IO.File.ReadAllText(caminhoArquivo),
+                    out contador
+                );
+            }
+
+            contador++;
+
+            System.IO.File.WriteAllText(
+                caminhoArquivo,
+                contador.ToString()
+            );
+
+            Response.Cookies.Append(
+                "visitou_ejacast",
+                "true",
+                new CookieOptions
+                {
+                    Expires = DateTimeOffset.Now.AddYears(1),
+                    HttpOnly = true,
+                    IsEssential = true
+                });
+        }
+
+        if (System.IO.File.Exists(caminhoArquivo))
+        {
+            int.TryParse(
+                System.IO.File.ReadAllText(caminhoArquivo),
+                out contador
+            );
+        }
+
+        ViewBag.Contador = contador;
+
+        return View();
+    }
     public IActionResult Privacy()
     {
         return View();

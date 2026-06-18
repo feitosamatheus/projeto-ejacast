@@ -292,3 +292,57 @@
         font-size: 1rem;
     }
 }
+
+.contador-visitas {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+
+    padding: 15px 25px;
+
+    background: rgba(255,255,255,.15);
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 20px;
+
+    margin-top: 30px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+
+.contador-icone {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background: #f4bd35;
+
+    color: #061f3b;
+    font-size: 22px;
+}
+
+.contador-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contador-titulo {
+    font-size: 0.9rem;
+    /* color: rgba(255,255,255,.8); */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contador-numero {
+    font-size: 2rem;
+    font-weight: 900;
+    /* color: #ffffff; */
+    line-height: 1;
+}
