@@ -13,8 +13,8 @@
       "PackagePath": "staticwebassets\\css\\episodidos.css"
     },
     {
-      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\home.css",
-      "PackagePath": "staticwebassets\\css\\home.css"
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
       "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\layout.css",
@@ -51,6 +51,10 @@
     {
       "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\banner4_old.png",
       "PackagePath": "staticwebassets\\img\\banner4_old.png"
+    },
+    {
+      "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\turma-eja.jpeg",
+      "PackagePath": "staticwebassets\\img\\turma-eja.jpeg"
     },
     {
       "Id": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\img\\turma-eja.jpg",
