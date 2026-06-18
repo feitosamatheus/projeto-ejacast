@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using projeto_ejacast.config;
+using projeto_ejacast.Models;
 using ProjetoEjaCast.Models;
 
 namespace ProjetoEjaCast.Controllers;
@@ -7,42 +9,39 @@ namespace ProjetoEjaCast.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly AppDbContext _context;
     private readonly IWebHostEnvironment _environment;
 
-    public HomeController(ILogger<HomeController> logger, IWebHostEnvironment environment)
+    public HomeController(ILogger<HomeController> logger, AppDbContext context)
     {
         _logger = logger;
-        _environment = environment;
+        _context = context;
+
     }
 
     public IActionResult Index()
     {
-        var caminhoArquivo = Path.Combine(
-            _environment.WebRootPath,
-            "dados",
-            "contador.txt"
-        );
+        var contador = _context.ContadorVisitas.FirstOrDefault();
 
-        int contador = 0;
+        if (contador == null)
+        {
+            contador = new ContadorVisita
+            {
+                Total = 0
+            };
+
+            _context.ContadorVisitas.Add(contador);
+            _context.SaveChanges();
+        }
 
         bool jaVisitou = Request.Cookies.ContainsKey("visitou_ejacast");
 
         if (!jaVisitou)
         {
-            if (System.IO.File.Exists(caminhoArquivo))
-            {
-                int.TryParse(
-                    System.IO.File.ReadAllText(caminhoArquivo),
-                    out contador
-                );
-            }
+            contador.Total++;
 
-            contador++;
-
-            System.IO.File.WriteAllText(
-                caminhoArquivo,
-                contador.ToString()
-            );
+            _context.ContadorVisitas.Update(contador);
+            _context.SaveChanges();
 
             Response.Cookies.Append(
                 "visitou_ejacast",
@@ -52,21 +51,15 @@ public class HomeController : Controller
                     Expires = DateTimeOffset.Now.AddYears(1),
                     HttpOnly = true,
                     IsEssential = true
-                });
-        }
-
-        if (System.IO.File.Exists(caminhoArquivo))
-        {
-            int.TryParse(
-                System.IO.File.ReadAllText(caminhoArquivo),
-                out contador
+                }
             );
         }
 
-        ViewBag.Contador = contador;
+        ViewBag.Contador = contador.Total;
 
         return View();
     }
+
     public IActionResult Privacy()
     {
         return View();

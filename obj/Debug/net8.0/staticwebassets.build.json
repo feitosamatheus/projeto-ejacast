@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BsemhJiofdyt2zQ5DKYdVPC84GjlvHIXZuuElYxfjb4=",
+  "Hash": "BwaGrrOBlXkXmOMwyu36ODbkFeL8XfN5jdNO2QK/5sU=",
   "Source": "ProjetoEjaCast",
   "BasePath": "_content/ProjetoEjaCast",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pzs31mlx1z",
-      "Integrity": "ewEKARgv7N7y/EZi/1+LjyhrgcQUdS2VZ+EQtKP7mmg=",
+      "Fingerprint": "ocm2851cjx",
+      "Integrity": "qCnlFBXZ5BNc/KppjDrZUHd9yiKKuKxR2FBIT1QpN3I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -2041,7 +2041,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5466"
+          "Value": "6427"
         },
         {
           "Name": "Content-Type",
@@ -2049,11 +2049,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ewEKARgv7N7y/EZi/1+LjyhrgcQUdS2VZ+EQtKP7mmg=\""
+          "Value": "\"qCnlFBXZ5BNc/KppjDrZUHd9yiKKuKxR2FBIT1QpN3I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Jun 2026 20:29:22 GMT"
+          "Value": "Thu, 18 Jun 2026 18:15:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2063,12 +2063,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ewEKARgv7N7y/EZi/1+LjyhrgcQUdS2VZ+EQtKP7mmg="
+          "Value": "sha256-qCnlFBXZ5BNc/KppjDrZUHd9yiKKuKxR2FBIT1QpN3I="
         }
       ]
     },
     {
-      "Route": "css/index.pzs31mlx1z.css",
+      "Route": "css/index.ocm2851cjx.css",
       "AssetFile": "C:\\Users\\matheus.feitosa\\Documents\\Bradesco\\Eja\\projeto-ejacast\\wwwroot\\css\\index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2078,7 +2078,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5466"
+          "Value": "6427"
         },
         {
           "Name": "Content-Type",
@@ -2086,11 +2086,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ewEKARgv7N7y/EZi/1+LjyhrgcQUdS2VZ+EQtKP7mmg=\""
+          "Value": "\"qCnlFBXZ5BNc/KppjDrZUHd9yiKKuKxR2FBIT1QpN3I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Jun 2026 20:29:22 GMT"
+          "Value": "Thu, 18 Jun 2026 18:15:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2100,7 +2100,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pzs31mlx1z"
+          "Value": "ocm2851cjx"
         },
         {
           "Name": "label",
@@ -2108,7 +2108,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ewEKARgv7N7y/EZi/1+LjyhrgcQUdS2VZ+EQtKP7mmg="
+          "Value": "sha256-qCnlFBXZ5BNc/KppjDrZUHd9yiKKuKxR2FBIT1QpN3I="
         }
       ]
     },
@@ -2381,7 +2381,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 18 Jun 2026 18:07:47 GMT"
+          "Value": "Thu, 18 Jun 2026 18:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2418,7 +2418,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 18 Jun 2026 18:07:47 GMT"
+          "Value": "Thu, 18 Jun 2026 18:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
